@@ -1,0 +1,753 @@
+<div class="container-fluid webVersion">
+  <!-- Nav bar -->
+  <div class="row">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent navCstm">
+      <div class="container-fluid">
+        <div
+          class="collapse navbar-collapse d-flex flex-row justify-content-between"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav ms-4">
+            <li class="nav-item active">
+              <img
+                src="../../assets/images/logo.svg"
+                style="height: auto; width: 24px"
+                alt=""
+              />
+            </li>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active ms-5 manuka brandname"
+                aria-current="page"
+                href="#"
+                >ScoopX</a
+              >
+            </li>
+          </ul>
+          <ul class="navbar-nav me-4">
+            <li class="nav-item">
+              <a class="nav-link pitchsans me-2" style="color: white" href="#"
+                >Blog</a
+              >
+            </li>
+            <!-- <li class="nav-item active">
+                <a class="nav-link pitchsans me-2" href="#">Join_Us</a>
+              </li> -->
+            <li class="nav-item">
+              <a class="nav-link pitchsans" style="color: white" href="#"
+                >Institute-X</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Lottie & Main text -->
+  <div class="row">
+    <div class="col-12">
+      <div class="card bg-card">
+        <div class="card-body">
+          <lottie-player
+            src="../../assets/landing page.json"
+            speed="1"
+            loop
+            autoplay
+            class="animae"
+          >
+          </lottie-player>
+          <!-- Main text -->
+          <div class="row">
+            <h1 class="text-center mainText manuka" *ngIf="!disappear">
+              WE CREATE BRANDS AND <br />
+              EXPERIENCES THROUGH RADICAL <br />
+              COLLABORATION
+            </h1>
+
+            <p *ngIf="disappear" class="subText text-center reckless">
+              We train you to create a persuasive web apps which will be
+              Inspiring, Challenging and Innovating.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Marquee scroll -->
+  <marquee id="scroller" class="row scroll-container">
+    <span
+      onmouseover="document.getElementById('scroller').stop()"
+      onmouseout="document.getElementById('scroller').start()"
+      class="scroll-text pitchsans"
+      >From novice to developer in no time - enroll in our web development course
+      today</span
+    >
+    <span
+      onmouseover="document.getElementById('scroller').stop()"
+      onmouseout="document.getElementById('scroller').start()"
+      class="scroll-text pitchsans"
+      >From novice to developer in no time - enroll in our development course
+      today</span
+    >
+  </marquee>
+
+  <!-- 3 THINGS START -->
+  <div class="row content-sention">
+    <div class="col-12">
+      <!-- heading -->
+      <div class="row heading">
+        <div class="flex-container-heading d-flex flex-row">
+          <span class="me-3 heading-text manuka">WE PROMISE</span
+          ><span class="me-3 heading-text-middle manuka">THREE</span
+          ><span class="me-3 heading-text manuka">THINGS</span>
+        </div>
+      </div>
+
+      <!-- cards -->
+      <div class="row cards mt-5">
+        <div class="card-wrapper d-flex flex-row">
+          <div class="card custom-card-content me-4">
+            <div class="card-body">
+              <div class="number01 manuka">
+                <span>01</span>
+              </div>
+              <div class="card-heading">
+                <h1 class="card-heading1 manuka">
+                  To Think <br />
+                  Holistically
+                </h1>
+              </div>
+              <div class="context">
+                <p class="context1 reckless">
+                  The concept of holistic thinking <br />
+                  is to strike a balance between <br />
+                  functional aesthetic creativity <br />
+                  and socially responsible.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card custom-card-content1 me-4">
+            <div class="card-body">
+              <div class="number01 manuka">
+                <span>02</span>
+              </div>
+              <div class="card-heading">
+                <h1 class="card-heading1 manuka">
+                  Analytical <br />
+                  Approach
+                </h1>
+              </div>
+              <div class="context">
+                <p class="context1 reckless">
+                  This method focuses on knowing <br />
+                  what users want and studying <br />
+                  data to find ways to make <br />
+                  things better.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card custom-card-content1">
+            <div class="card-body">
+              <div class="number01 manuka">
+                <span>03</span>
+              </div>
+              <div class="card-heading">
+                <h1 class="card-heading1 manuka">
+                  Diversity & <br />
+                  Inclusion
+                </h1>
+              </div>
+              <div class="context">
+                <p class="context1 reckless">
+                  We believe that web <br />
+                  should be inclusive and <br />
+                  reflective of diverse <br />
+                  perspectives & experiences.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 3 THINGS ENDS -->
+
+  <!-- Our capabilities starts -->
+  <div class="row content-capabilities">
+    <div class="col-12">
+      <!-- heading -->
+      <div class="row heading-capabilities">
+        <div class="flex-container-heading d-flex flex-row">
+          <span class="me-3 heading-text-capabilities manuka"
+            >OUR CAPABILITIES</span
+          >
+        </div>
+      </div>
+      <!-- heading ends -->
+
+      <!-- heading 2 -->
+      <div class="row heading-capabilities2">
+        <div class="flex-container-heading d-flex flex-row">
+          <span class="me-3 heading-text-capabilities2 manuka"
+            >WE DEFINE AMBITIONS</span
+          >
+        </div>
+      </div>
+      <!-- image + content 1 -->
+      <div class="row">
+        <div class="col-12 d-flex flex-row">
+          <div class="image-container">
+            <img
+              src="../../assets/images/image01.png"
+              class="img-fluid img img-01 rounded"
+              alt=""
+            />
+            <span class="pitchsans sub_img_text">IDEATE・DESIGN・DEVELOP</span>
+          </div>
+          <div class="content-container">
+            <div class="row">
+              <div class="col-12">
+                <p class="reckless content-container-text">
+                  Setting brand and digital strategies that mobilise teams.
+                </p>
+              </div>
+            </div>
+
+            <div class="row mt-4 small-text-content-container">
+              <p class="pitchsans">OUR CAPABILITIES</p>
+            </div>
+
+            <div class="row mt-2 points-content-container">
+              <div class="d-flex flex-column">
+                <span class="reckless">Brand Stratergy</span>
+                <span class="reckless">Brand Architecture</span>
+                <span class="reckless">Digital Stratergy</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- heading 2 ends -->
+
+      <!-- heading 3 -->
+      <!-- heading 2 -->
+      <div class="row heading-capabilities2 mt-5">
+        <div class="flex-container-heading d-flex flex-row">
+          <span class="me-3 heading-text-capabilities2 manuka"
+            >WE BUILD BRANDS</span
+          >
+        </div>
+      </div>
+      <!-- image + content 1 -->
+      <div class="row">
+        <div class="col-12 d-flex flex-row">
+          <div class="image-container">
+            <img
+              src="../../assets/images/image02.png"
+              class="img-fluid img img-01 rounded"
+              alt=""
+            />
+            <span class="pitchsans sub_img_text">IDEATE・DESIGN・DEVELOP</span>
+          </div>
+          <div class="content-container">
+            <div class="row">
+              <div class="col-12">
+                <p class="reckless content-container-text">
+                  Crafting systems and stories that redefine categories
+                </p>
+              </div>
+            </div>
+
+            <div class="row mt-4 small-text-content-container">
+              <p class="pitchsans">OUR CAPABILITIES</p>
+            </div>
+
+            <div class="row mt-2 points-content-container">
+              <div class="d-flex flex-column">
+                <span class="reckless">Visual Identity</span>
+                <span class="reckless">Verbal Identity</span>
+                <span class="reckless">A/B Testing</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- heading 3 ends -->
+
+      <!-- heading 4 -->
+      <div class="row heading-capabilities2 mt-5">
+        <div class="flex-container-heading d-flex flex-row">
+          <span class="me-3 heading-text-capabilities2 manuka"
+            >WE CREATE EXPERIENCES</span
+          >
+        </div>
+      </div>
+      <!-- image + content 1 -->
+      <div class="row">
+        <div class="col-12 d-flex flex-row">
+          <div class="image-container">
+            <img
+              src="../../assets/images/image03.png"
+              class="img-fluid img img-01 rounded"
+              alt=""
+            />
+            <span class="pitchsans sub_img_text">IDEATE・DESIGN・DEVELOP</span>
+          </div>
+          <div class="content-container">
+            <div class="row">
+              <div class="col-12">
+                <p class="reckless content-container-text">
+                  Designing ways to authentically connect with your audience.
+                </p>
+              </div>
+            </div>
+
+            <div class="row mt-4 small-text-content-container">
+              <p class="pitchsans">OUR CAPABILITIES</p>
+            </div>
+
+            <div class="row mt-2 points-content-container">
+              <div class="d-flex flex-column">
+                <span class="reckless">Environmental Design</span>
+                <span class="reckless">Interactive Experiences</span>
+                <span class="reckless">Digital Products</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- heading 4 ends -->
+
+      <!-- heading 5 -->
+      <div class="row heading-capabilities2 mt-5">
+        <div class="flex-container-heading d-flex flex-row">
+          <span class="me-3 heading-text-capabilities2 manuka"
+            >WE CHANGE BUSINESS</span
+          >
+        </div>
+      </div>
+      <!-- image + content 1 -->
+      <div class="row">
+        <div class="col-12 d-flex flex-row">
+          <div class="image-container">
+            <img
+              src="../../assets/images/image04.png"
+              class="img-fluid img img-01 rounded"
+              alt=""
+            />
+            <span class="pitchsans sub_img_text">IDEATE・DESIGN・DEVELOP</span>
+          </div>
+          <div class="content-container">
+            <div class="row">
+              <div class="col-12">
+                <p class="reckless content-container-text">
+                  Inspiring and empowering your teams with cultural and process
+                  innovation.
+                </p>
+              </div>
+            </div>
+
+            <div class="row mt-4 small-text-content-container">
+              <p class="pitchsans">OUR CAPABILITIES</p>
+            </div>
+
+            <div class="row mt-2 points-content-container">
+              <div class="d-flex flex-column">
+                <span class="reckless">Employer Brand strategy</span>
+                <span class="reckless">Implementation Planning</span>
+                <span class="reckless">Employee Engagement</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- heading 5 ends -->
+    </div>
+  </div>
+  <!-- Our capabilities ends -->
+
+  <!-- colab starts -->
+  <div class="row colab_section">
+    <div class="col-12">
+      <div class="row">
+        <div class="pitchsans instrested">INTERESTED?</div>
+      </div>
+
+      <div class="row mt-3">
+        <div class="manuka question">
+          Looking to collaborate? <br />
+          Get in touch to find out how we can help.
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="pitchsans contact">CONTACT US</div>
+      </div>
+    </div>
+  </div>
+  <!-- colab ends -->
+
+  <!-- footer starts -->
+  <div class="row footer_section">
+    <div class="col-12">
+      <div class="d-flex flex-row">
+        <div class="left-footer">
+          <div class="row">
+            <div class="manuka studioname">ScoopX</div>
+          </div>
+
+          <div class="row">
+            <div class="manuka studioname-txt">
+              Learn Brands, experiences, and <br />
+              radical collaboration.
+            </div>
+          </div>
+
+          <div class="row privacy-container">
+            <div class="pitchsans privacyhead">
+              © 2023 ScoopX Web institute & Studio.
+            </div>
+          </div>
+        </div>
+        <div class="right-footer">
+          <div class="row">
+            <div class="col-12 d-flex flex-column">
+              <div class="instagram d-flex flex-row mb-2">
+                <span
+                  ><img
+                    src="../../assets/images/arrow_outward.svg"
+                    class="arrow"
+                    alt=""
+                /></span>
+                <a
+                  href="https://instagram.com/scoopx_?igshid=YmMyMTA2M2Y="
+                  target="_blank"
+                  class="pitchsans social"
+                  >INSTAGRAM</a
+                >
+              </div>
+              <div class="instagram d-flex flex-row">
+                <span
+                  ><img
+                    src="../../assets/images/arrow_outward.svg"
+                    class="arrow"
+                    alt=""
+                /></span>
+                <span class="pitchsans social">LINKEDIN</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="row mt-4">
+            <div class="pitchsans contactdetails">
+              CONTACT US: +91 9443101570
+            </div>
+          </div>
+          <div class="row mt-2">
+            <div class="pitchsans contactdetails">
+              Email US: ganeshsethu1212@gmail.com
+            </div>
+          </div>
+          <div class="row">
+            <div class="manuka studionamebig">ScoopXStudio.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer ends -->
+
+  <!-- container fluid ends -->
+</div>
+
+<div class="mobilestartsfromhere">
+  <!-- <p class="compName">scoopXstudios</p> -->
+
+  <div class="row">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent navCstm">
+      <div class="container-fluid">
+        <div
+          class="collapse navbar-collapse d-flex flex-row justify-content-between"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active manuka brandnamem ms-4"
+                aria-current="page"
+                href="#"
+                >ScoopX Studio.</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <div class="row">
+    <div class="card animation_card">
+      <div class="card-body">
+        <div class="row">
+          <h1 *ngIf="!disappear" class="text-center mainTextmob manuka">
+            WE CREATE BRANDS AND EXPERIENCES THROUGH RADICAL COLLABORATION
+          </h1>
+
+          <p *ngIf="disappear" class="subTextmob text-center reckless">
+            We train you to create a persuasive Apps which will be Inspiring,
+            Challenging and Innovating.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <marquee id="scroller" class="row scroll-container">
+    <span
+      onmouseover="document.getElementById('scroller').stop()"
+      onmouseout="document.getElementById('scroller').start()"
+      class="scroll-text pitchsans"
+      >From novice to developer in no time - enroll in our UI/UX course
+      today</span
+    >
+    <span
+      onmouseover="document.getElementById('scroller').stop()"
+      onmouseout="document.getElementById('scroller').start()"
+      class="scroll-text pitchsans"
+      >From novice to developer in no time - enroll in our UI/UX course
+      today</span
+    >
+  </marquee>
+
+  <div class="row content-sentionmob">
+    <div class="col-12">
+      <!-- heading -->
+      <div class="row heading">
+        <div class="flex-container-heading d-flex flex-row">
+          <span class="me-2 heading-textm manuka">WE PROMISE</span
+          ><span class="me-2 heading-text-middlem manuka">THREE</span
+          ><span class="me-2 heading-textm manuka">THINGS</span>
+        </div>
+      </div>
+
+      <div class="row mt-4">
+        <div class="d-flex flex-row">
+          <div class="numm manuka me-2">01.</div>
+          <div class="mheading manuka">To Think Holistically</div>
+        </div>
+        <div class="msubtext reckless">
+          The concept of holistic thinking is to strike a balance between
+          functional aesthetic creativity and socially responsible.
+        </div>
+      </div>
+
+      <div class="row mt-4">
+        <div class="d-flex flex-row">
+          <div class="numm manuka me-2">02.</div>
+          <div class="mheading manuka">Analytical Design Approach</div>
+        </div>
+        <div class="msubtext reckless">
+          This method focuses on knowing what users want and studying data to
+          find ways to make things better.
+        </div>
+      </div>
+
+      <div class="row mt-4">
+        <div class="d-flex flex-row">
+          <div class="numm manuka me-2">03.</div>
+          <div class="mheading manuka">Diversity & Inclusion</div>
+        </div>
+        <div class="msubtext reckless">
+          We believe that web should be inclusive and reflective of diverse
+          perspectives & experiences.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row capabilitiesmob">
+    <div class="col-12">
+      <div class="row headingcapmob manuka">
+        <p>OUR CAPABILITIES</p>
+      </div>
+
+      <div class="row mob-title1 mt-2">
+        <div class="mob-titlee manuka">WE DEFINE AMBITIONS</div>
+        <div class="mob-image mt-2">
+          <img
+            src="../../assets/images/image01.png"
+            class="mobile-image rounded img-fluid"
+            alt=""
+          />
+        </div>
+        <div class="mob-slogan mt-1">
+          <p class="mob-slogan-txt pitchsans">IDEATE・DESIGN・DEVELOP</p>
+        </div>
+        <div class="mob-subtext-cap reckless mt-3">
+          Setting brand and digital strategies that mobilise teams.
+        </div>
+
+        <div class="mob-slogan">
+          <p class="mob-slogan-txt-purple pitchsans">OUR CAPABILITIES</p>
+        </div>
+        <div class="mob-subtext-cap reckless mt-3">Brand Stratergy</div>
+        <div class="mob-subtext-cap reckless">Brand Architecture</div>
+        <div class="mob-subtext-cap reckless">Digital Stratergy</div>
+      </div>
+      <hr class="mt-4 mb-3" />
+      <div class="row mob-title1">
+        <div class="mob-titlee manuka">WE BUILD BRANDS</div>
+        <div class="mob-image mt-2">
+          <img
+            src="../../assets/images/image02.png"
+            class="mobile-image rounded img-fluid"
+            alt=""
+          />
+        </div>
+        <div class="mob-slogan mt-1">
+          <p class="mob-slogan-txt pitchsans">IDEATE・DESIGN・DEVELOP</p>
+        </div>
+        <div class="mob-subtext-cap reckless mt-3">
+          Crafting systems and stories that redefine categories.
+        </div>
+
+        <div class="mob-slogan">
+          <p class="mob-slogan-txt-purple pitchsans">OUR CAPABILITIES</p>
+        </div>
+        <div class="mob-subtext-cap reckless mt-3">Visual Identity</div>
+        <div class="mob-subtext-cap reckless">Verbal Identity</div>
+        <div class="mob-subtext-cap reckless">A/B Testing</div>
+      </div>
+      <hr class="mt-4 mb-3" />
+      <div class="row mob-title1">
+        <div class="mob-titlee manuka">WE CREATE EXPERIENCES</div>
+        <div class="mob-image mt-2">
+          <img
+            src="../../assets/images/image03.png"
+            class="mobile-image rounded img-fluid"
+            alt=""
+          />
+        </div>
+        <div class="mob-slogan mt-1">
+          <p class="mob-slogan-txt pitchsans">IDEATE・DESIGN・DEVELOP</p>
+        </div>
+        <div class="mob-subtext-cap reckless mt-3">
+          Developing ways to authentically connect with your audience.
+        </div>
+
+        <div class="mob-slogan">
+          <p class="mob-slogan-txt-purple pitchsans">OUR CAPABILITIES</p>
+        </div>
+        <div class="mob-subtext-cap reckless mt-3">Environmental Design</div>
+        <div class="mob-subtext-cap reckless">Interactive Experiences</div>
+        <div class="mob-subtext-cap reckless">Digital Products</div>
+      </div>
+      <hr class="mt-4 mb-3" />
+      <div class="row mob-title1">
+        <div class="mob-titlee manuka">WE CHANGE BUSINESS</div>
+        <div class="mob-image mt-2">
+          <img
+            src="../../assets/images/image04.png"
+            class="mobile-image rounded img-fluid"
+            alt=""
+          />
+        </div>
+        <div class="mob-slogan mt-1">
+          <p class="mob-slogan-txt pitchsans">IDEATE・DESIGN・DEVELOP</p>
+        </div>
+        <div class="mob-subtext-cap reckless mt-3">
+          Inspiring and empowering your teams with cultural and process
+          innovation.
+        </div>
+
+        <div class="mob-slogan">
+          <p class="mob-slogan-txt-purple pitchsans">OUR CAPABILITIES</p>
+        </div>
+        <div class="mob-subtext-cap reckless mt-3">Employer Brand strategy</div>
+        <div class="mob-subtext-cap reckless">Implementation Planning</div>
+        <div class="mob-subtext-cap reckless">Employee Engagement</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row colab">
+    <div class="row">
+      <div class="pitchsans instrested">INTERESTED?</div>
+    </div>
+
+    <div class="row mt-3">
+      <div class="manuka question1">
+        Looking to collaborate? <br />
+        Get in touch to find out how we can help.
+      </div>
+    </div>
+
+    <div class="row mt-5">
+      <div class="pitchsans contact">CONTACT US</div>
+    </div>
+  </div>
+
+  <div class="footermob row">
+    <div class="row footerbrandname">
+      <p class="manuka">ScoopX <br> Learn Brands, experiences, and
+        radical collaboration. </p>
+    </div>
+
+    <div class="row contactmob mt-5">
+      <div class="row">
+        <div class="col-12 d-flex flex-column">
+          <div class="instagram d-flex flex-row mb-2">
+            <span
+              ><img
+                src="../../assets/images/arrow_outward.svg"
+                class="arrow"
+                alt=""
+            /></span>
+            <a
+              href="https://instagram.com/scoopx_?igshid=YmMyMTA2M2Y="
+              target="_blank"
+              class="pitchsans social"
+              >INSTAGRAM</a
+            >
+          </div>
+          <div class="instagram d-flex flex-row">
+            <span
+              ><img
+                src="../../assets/images/arrow_outward.svg"
+                class="arrow"
+                alt=""
+            /></span>
+            <span class="pitchsans social">LINKEDIN</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-4">
+        <div class="pitchsans contactdetailsm">
+          CONTACT US: <br> +91 9443101570
+        </div>
+      </div>
+      <div class="row mt-2">
+        <div class="pitchsans contactdetailsm">
+          Email US: <br> ganeshsethu1212@gmail.com
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row privacy-containerm">
+    <div class="pitchsans privacyhead text-center">
+      © 2023 ScoopX Development institute & Studio.
+    </div>
+  </div>
+
+</div>

@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: 'Manuka';
+    src: url('./assets/Fonts/Manuka/TestManuka-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Reckless';
+    src: url('./assets/Fonts/reckless/Reckless\ Neue\ Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Pitchsans';
+    src: url('./assets/Fonts/Pitchsans/PitchSans-Regular.ttf') format('truetype');
+}
+
+.manuka {
+    font-family: Manuka;
+}
+
+.reckless {
+    font-family: Reckless;
+}
+
+.pitchsans {
+    font-family: Pitchsans;
+}

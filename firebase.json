@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/scoopz-web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
